@@ -31,11 +31,6 @@ $routes = [
 ];
 
 $domains = [
-    'allegra-immobilienbewertung.de' => [
-        'laengengrad' => [6.26, 7.26],
-        'breitengrad' => [50.93, 51.93],
-        'domainort' => 'Duisburg'
-    ],
     'immobilienbewertung-duisburg.com' => [
         'laengengrad' => [6.26, 7.26],
         'breitengrad' => [50.93, 51.93],
