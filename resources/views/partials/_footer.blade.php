@@ -44,30 +44,20 @@ object-position: center;">
                     
                     <div class="footer__data">
                         
-    @foreach($regions as $region)
-    @if ($region->Country == 'Germany')
-    <a class="footer__link" href="/immobilienbewertungen/{{$region->Region_Umlaut}}">Immobilienbewertung {{$region->Region}}</a><br>
-    @endif
-
-    @endforeach
-
-                        
-                    </div>
-                
-                    <div class="footer__data">
-                        
-                        @php
-    $i=0;
-    @endphp
-    @foreach($ortDE as $ort)
+                    @php
+                $i=0;
+                @endphp        
+   
+    @foreach($data as $cities)
     @if ($i++ < 16)
-    <a class="footer__link" href="/immobilienbewertung/{{$ort->ort_umlaut}}">Immobilienbewertung {{$ort['ort']}}</a><br>
+    <a class="link-dark" href="/immobilienbewertung/{{$cities->ort_umlaut}}">Immobilienbewertung {{$cities->ort}}</a>
     @else
     @endif
     @endforeach
 
                         
                     </div>
+
                 </div>
 
                 <div class="footer__rights">
