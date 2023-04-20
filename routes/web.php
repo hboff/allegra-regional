@@ -109,7 +109,7 @@ foreach ($domains as $domain => $domainData) {
                         ->get();
                         
                         $expert = DB::table('orteDE')
-                        ->join('gutachter', function($join) {
+                        ->join('gutachter2', function($join) {
                             $join->on('orteDE.laengengrad', '>=', 'gutachter2.Lon')
                                  ->on('orteDE.laengengrad', '<=', 'gutachter2.Lon2')
                                  ->on('orteDE.breitengrad', '>=', 'gutachter2.Lat')
