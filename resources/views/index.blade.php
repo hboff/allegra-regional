@@ -154,7 +154,7 @@ Bei der Bewertung von Pflegeappartments können zudem weitere Faktoren wie die A
 
 Insgesamt ist bei der Bewertung von Wohnimmobilien immer eine individuelle Herangehensweise notwendig, die die Besonderheiten und Eigenschaften der jeweiligen Immobilie berücksichtigt.</p>
         </div>
-        <img src="/img/wohnimmobilien.jpg" alt="Bildbeschreibung hier" style="flex: 1; margin-right: 20px;  width:50%;">
+        <img src="/img/wohnimmobilien.jpg" alt="Bildbeschreibung hier" style="flex: 1; margin-left: 20px;  width:50%;">
     </section>
 </div>
 
