@@ -104,16 +104,16 @@ foreach ($domains as $domain => $domainData) {
     Route::domain($domain)->group(function () use ($routes, $domainData) {
         Route::get('/', function() use ($domainData) {
             $data = DB::table('orteDE')
-                        ->whereBetween('laenge', $domainData['laengengrad'])
-                        ->whereBetween('breite', $domainData['breitengrad'])
+                        ->whereBetween('laengengrad', $domainData['laengengrad'])
+                        ->whereBetween('breitengrad', $domainData['breitengrad'])
                         ->get();
                         
                         $expert = DB::table('orteDE')
                         ->join('gutachter', function($join) {
-                            $join->on('orteDE.laenge', '>=', 'gutachter2.Lon')
-                                 ->on('orteDE.laenge', '<=', 'gutachter2.Lon2')
-                                 ->on('orteDE.breite', '>=', 'gutachter2.Lat')
-                             ->on('orteDE.breite', '<=', 'gutachter2.Lat2');
+                            $join->on('orteDE.laengengrad', '>=', 'gutachter2.Lon')
+                                 ->on('orteDE.laengengrad', '<=', 'gutachter2.Lon2')
+                                 ->on('orteDE.breitengrad', '>=', 'gutachter2.Lat')
+                             ->on('orteDE.breitengrad', '<=', 'gutachter2.Lat2');
                         })
                         ->get();
             View::share('data', $data);
