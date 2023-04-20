@@ -102,7 +102,23 @@ $domains = [
 
 foreach ($domains as $domain => $domainData) {
     Route::domain($domain)->group(function () use ($routes, $domainData) {
-        Route::get('/', [OrteController::class, 'index']);
+        Route::get('/', function() use ($domainData) {
+            $data = DB::table('orteDE')
+                        ->whereBetween('laenge', $domainData['laengengrad'])
+                        ->whereBetween('breite', $domainData['breitengrad'])
+                        ->get();
+                        
+                        $expert = DB::table('orteDE')
+                        ->join('gutachter', function($join) {
+                            $join->on('orteDE.laenge', '>=', 'gutachter2.Lon')
+                                 ->on('orteDE.laenge', '<=', 'gutachter2.Lon2')
+                                 ->on('orteDE.breite', '>=', 'gutachter2.Lat')
+                             ->on('orteDE.breite', '<=', 'gutachter2.Lat2');
+                        })
+                        ->get();
+            View::share('data', $data);
+            return view('index', ['expert' => $expert,'domainort' => $domainData['domainort']]);
+        });
         Route::get('/immobilienbewertung/{ort}', [OrteController::class, 'show'], function () use ($domainData) {})
                 ->middleware('cache.headers:private;max_age=3600');
         Route::get('/immobilienbewertungen/{region}', function($region){
