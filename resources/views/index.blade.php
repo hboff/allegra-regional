@@ -144,7 +144,15 @@
         
         <div style="flex: 1;">
             <h3>Wohnimmobilien</h3>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor...</p>
+            <p>Bei der Bewertung von Wohnimmobilien spielen auch die verschiedenen Typen von Immobilien eine wichtige Rolle. Jeder Typ von Wohnimmobilie hat unterschiedliche Merkmale und Eigenschaften, die bei der Bewertung berücksichtigt werden müssen.
+
+So wird beispielsweise bei der Bewertung von Einfamilienhäusern oft das Sachwertverfahren angewendet, da hierbei die Kosten für die Herstellung oder Wiederherstellung der Immobilie berücksichtigt werden. Bei Eigentumswohnungen hingegen wird oft das Ertragswertverfahren angewendet, da hierbei die erwarteten Erträge aus Vermietung oder Verpachtung eine wichtige Rolle spielen.
+
+Auch die Lage und der Zustand der Immobilie können bei der Bewertung eine große Rolle spielen. So kann beispielsweise ein Ferienhaus in einer begehrten Lage einen höheren Wert haben als ein vergleichbares Ferienhaus in einer weniger beliebten Lage. Der Zustand der Immobilie kann ebenfalls den Wert beeinflussen, da eine gut gepflegte Immobilie oft einen höheren Wert hat als eine vernachlässigte Immobilie.
+
+Bei der Bewertung von Pflegeappartments können zudem weitere Faktoren wie die Ausstattung und die Serviceleistungen der Pflegeeinrichtung eine Rolle spielen. Hierbei kann beispielsweise der Zustand der Gemeinschaftsräume oder die Verfügbarkeit von Pflegepersonal den Wert der Immobilie beeinflussen.
+
+Insgesamt ist bei der Bewertung von Wohnimmobilien immer eine individuelle Herangehensweise notwendig, die die Besonderheiten und Eigenschaften der jeweiligen Immobilie berücksichtigt.</p>
         </div>
         <img src="/img/wohnimmobilien.jpg" alt="Bildbeschreibung hier" style="flex: 1; margin-right: 20px;  width:50%;">
     </section>
