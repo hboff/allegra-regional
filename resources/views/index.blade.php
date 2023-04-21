@@ -153,6 +153,7 @@ Auch die Lage und der Zustand der Immobilie können bei der Bewertung eine groß
 Bei der Bewertung von Pflegeappartments können zudem weitere Faktoren wie die Ausstattung und die Serviceleistungen der Pflegeeinrichtung eine Rolle spielen. Hierbei kann beispielsweise der Zustand der Gemeinschaftsräume oder die Verfügbarkeit von Pflegepersonal den Wert der Immobilie beeinflussen.
 
 Insgesamt ist bei der Bewertung von Wohnimmobilien immer eine individuelle Herangehensweise notwendig, die die Besonderheiten und Eigenschaften der jeweiligen Immobilie berücksichtigt.</p>
+<br>
 <a href="/wohnimmobilien" class="button" style="padding-top:3%">Erfahren Sie mehr</a>
         </div>
         <img src="/img/wohnimmobilien.jpg" alt="Wohnimmobilien" style="flex: 1; margin-left: 20px;  width:50%;">
@@ -172,6 +173,7 @@ Ein zentraler Aspekt bei der Bewertung von Gewerbeimmobilien ist der Standort. D
 Darüber hinaus können wirtschaftliche Bedingungen und die aktuelle Marktlage auf dem Gewerbeimmobilienmarkt den Wert einer Gewerbeimmobilie erheblich beeinflussen. So kann es beispielsweise in Zeiten von wirtschaftlicher Stagnation zu einem Rückgang der Nachfrage nach Gewerbeimmobilien kommen, was sich auf den Wert auswirkt.
 
 Insgesamt ist die Bewertung von Gewerbeimmobilien ein wichtiger Schritt, um den Wert einer Immobilie zu ermitteln und eine Entscheidungshilfe für potenzielle Investoren oder Mieter zu bieten. Dabei müssen viele verschiedene Faktoren berücksichtigt werden, um eine möglichst genaue Einschätzung des Immobilienwerts zu erzielen.</p>
+<br>
 <a href="/gewerbeimmobilien" class="button" style="padding-top:3%">Erfahren Sie mehr</a>
         </div>
     </section>
@@ -190,6 +192,7 @@ Bei der Bewertung von Sonderimmobilien müssen die Gutachter ihr Fachwissen und 
 Auch besondere Herausforderungen, die mit diesen Arten von Immobilien verbunden sind, müssen bei der Bewertung berücksichtigt werden. So können zum Beispiel Beschränkungen durch den Denkmalschutz oder bestimmte Vorschriften bei der Renovierung und Modernisierung der Immobilie den Wert beeinflussen.
 
 Insgesamt erfordert die Bewertung von Sonderimmobilien ein hohes Maß an Fachwissen und Erfahrung. Um eine genaue Einschätzung des Werts zu erzielen, müssen alle speziellen Merkmale und Herausforderungen berücksichtigt werden.</p>
+<br>
 <a href="/sonderimmobilien" class="button" style="padding-top:3%">Erfahren Sie mehr</a>
 </div>
 <img src="/img/sonderimmobilien.jpg" alt="Sonderimmobilien" style="flex: 1; margin-left: 20px;  width:50%;">
@@ -202,9 +205,7 @@ Insgesamt erfordert die Bewertung von Sonderimmobilien ein hohes Maß an Fachwis
         <div style="flex: 2;">
     <h3 style="padding-bottom:3%">Grundstücke und Rechte</h3>
     <p>Immobilien sind ein wichtiger Bestandteil der Wirtschaft und spielen eine entscheidende Rolle in unserem täglichen Leben. Ob als Wohnraum oder als Gewerbeimmobilien – sie dienen als Orte des Zusammenlebens und der Geschäftstätigkeit. Doch Immobilien sind nicht nur Gebäude, sondern auch Grundstücke und die damit verbundenen Rechte und Verpflichtungen. In diesem Kontext gibt es verschiedene Begriffe und Konzepte, die für potenzielle Käufer, Mieter oder Investoren von Bedeutung sind.</p>
-    
-</div>
-<div>
+    <br>
     <a href="/grundstuecke-und-rechte" class="button" style="padding-top:3%">Erfahren Sie mehr</a>
 </div>
 </section>
@@ -216,6 +217,7 @@ Insgesamt erfordert die Bewertung von Sonderimmobilien ein hohes Maß an Fachwis
         <div style="flex: 1;">
     <h3 style="padding-bottom:3%">Landwirtschaftliche Immobilien</h3>
     <p>Landwirtschaftliche Immobilien, wie Bauernhöfe oder landwirtschaftliche Flächen, spielen eine wichtige Rolle in der Landwirtschaft und in der Produktion von Nahrungsmitteln. Sie bestehen aus einer Kombination von Wohn- und Nutzflächen wie Viehhaltung, Lagerung und Acker-, Wiesen- und Weideflächen. Für die Bewertung von landwirtschaftlichen Betrieben werden spezielle Ansprüche gestellt, da sowohl die Qualität des Bodens als auch die Größe und Lage der Betriebs- und Wohngebäude einen großen Einfluss auf den Wert der Immobilie haben. In diesem Kontext sind auch die verschiedenen Kategorien landwirtschaftlicher Flächen von Bedeutung, die in Deutschland in unterschiedliche Arten wie Ackerland, Grünland oder Obstbaumanlagen unterteilt werden. Im Folgenden werden wir uns genauer mit diesen Themen auseinandersetzen und ihre Bedeutung für den Immobilienmarkt beleuchten.</p>
+    <br>
     <a href="/landwirtschaftliche-immobilien" class="button" style="padding-top:3%">Erfahren Sie mehr</a>
 </div>
 <img src="/img/landwirtschaft.jpg" alt="Landwirtschaftliche Immobilien" style="flex: 1; margin-left: 20px;  width:50%;">
