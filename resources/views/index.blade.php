@@ -143,7 +143,7 @@
     <section class="container" id="wohnimmobilien" style="display: flex; flex-direction: row; align-items: center;">
         
         <div style="flex: 1;">
-            <h3>Wohnimmobilien</h3>
+            <h3 style="padding-bottom:3%">Wohnimmobilien</h3>
             <p>Bei der Bewertung von Wohnimmobilien spielen auch die verschiedenen Typen von Immobilien eine wichtige Rolle. Jeder Typ von Wohnimmobilie hat unterschiedliche Merkmale und Eigenschaften, die bei der Bewertung berücksichtigt werden müssen.
 
 So wird beispielsweise bei der Bewertung von Einfamilienhäusern oft das Sachwertverfahren angewendet, da hierbei die Kosten für die Herstellung oder Wiederherstellung der Immobilie berücksichtigt werden. Bei Eigentumswohnungen hingegen wird oft das Ertragswertverfahren angewendet, da hierbei die erwarteten Erträge aus Vermietung oder Verpachtung eine wichtige Rolle spielen.
@@ -153,18 +153,18 @@ Auch die Lage und der Zustand der Immobilie können bei der Bewertung eine groß
 Bei der Bewertung von Pflegeappartments können zudem weitere Faktoren wie die Ausstattung und die Serviceleistungen der Pflegeeinrichtung eine Rolle spielen. Hierbei kann beispielsweise der Zustand der Gemeinschaftsräume oder die Verfügbarkeit von Pflegepersonal den Wert der Immobilie beeinflussen.
 
 Insgesamt ist bei der Bewertung von Wohnimmobilien immer eine individuelle Herangehensweise notwendig, die die Besonderheiten und Eigenschaften der jeweiligen Immobilie berücksichtigt.</p>
-<a href="/wohnimmobilien" class="button">Erfahren Sie mehr</a>
+<a href="/wohnimmobilien" class="button" style="padding-top:3%">Erfahren Sie mehr</a>
         </div>
-        <img src="/img/wohnimmobilien.jpg" alt="Bildbeschreibung hier" style="flex: 1; margin-left: 20px;  width:50%;">
+        <img src="/img/wohnimmobilien.jpg" alt="Wohnimmobilien" style="flex: 1; margin-left: 20px;  width:50%;">
     </section>
 </div>
 
 <!--==================== Gewerbeimmobilien ====================-->
 <div style="padding:3%;">
     <section class="container" id="gewerbeimmobilien" style="display: flex; flex-direction: row; align-items: center;">
-        <img src="/img/gewerbeimmobilien.jpg" alt="Bildbeschreibung hier" style="flex: 1; margin-right: 20px; width:50%;">
+        <img src="/img/gewerbeimmobilien.jpg" alt="Gewerbeimmobilien" style="flex: 1; margin-right: 20px; width:50%;">
         <div style="flex: 2;">
-            <h3>Gewerbeimmobilien</h3>
+            <h3 style="padding-bottom:3%">Gewerbeimmobilien</h3>
             <p>Die Bewertung von Gewerbeimmobilien ist ein wichtiger Prozess, der für verschiedene Zwecke, wie beispielsweise den Verkauf oder die Vermietung der Immobilie, durchgeführt wird. Dabei werden eine Vielzahl von Faktoren berücksichtigt, wie zum Beispiel die Größe und der Standort der Immobilie, die Art des Geschäfts, das in der Immobilie betrieben wird, sowie die aktuelle Marktlage auf dem Gewerbeimmobilienmarkt.
 
 Ein zentraler Aspekt bei der Bewertung von Gewerbeimmobilien ist der Standort. Denn der Standort hat einen erheblichen Einfluss auf den Wert der Immobilie. So ist beispielsweise eine Gewerbeimmobilie in bester Lage mehr wert als eine Immobilie in einem weniger begehrten Gebiet. Auch die Art des in der Immobilie betriebenen Unternehmens kann sich auf den Wert auswirken. Eine Gewerbeimmobilie, die an ein hochwertiges Einzelhandelsunternehmen vermietet ist, wird in der Regel mehr wert sein als eine Immobilie, die an einen Discounter vermietet ist.
@@ -172,7 +172,7 @@ Ein zentraler Aspekt bei der Bewertung von Gewerbeimmobilien ist der Standort. D
 Darüber hinaus können wirtschaftliche Bedingungen und die aktuelle Marktlage auf dem Gewerbeimmobilienmarkt den Wert einer Gewerbeimmobilie erheblich beeinflussen. So kann es beispielsweise in Zeiten von wirtschaftlicher Stagnation zu einem Rückgang der Nachfrage nach Gewerbeimmobilien kommen, was sich auf den Wert auswirkt.
 
 Insgesamt ist die Bewertung von Gewerbeimmobilien ein wichtiger Schritt, um den Wert einer Immobilie zu ermitteln und eine Entscheidungshilfe für potenzielle Investoren oder Mieter zu bieten. Dabei müssen viele verschiedene Faktoren berücksichtigt werden, um eine möglichst genaue Einschätzung des Immobilienwerts zu erzielen.</p>
-<a href="/gewerbeimmobilien" class="button">Erfahren Sie mehr</a>
+<a href="/gewerbeimmobilien" class="button" style="padding-top:3%">Erfahren Sie mehr</a>
         </div>
     </section>
 </div>
@@ -182,7 +182,7 @@ Insgesamt ist die Bewertung von Gewerbeimmobilien ein wichtiger Schritt, um den 
 <section class="container" id="sonderimmobilien" style="display: flex; flex-direction: row; align-items: center;">
         
         <div style="flex: 1;">
-    <h3>Sonderimmobilien</h3>
+    <h3 style="padding-bottom:3%">Sonderimmobilien</h3>
     <p>Sonderimmobilien sind Immobilien, die sich nicht eindeutig in eine bestimmte Kategorie einordnen lassen. Sie können zum Beispiel historische Gebäude, Denkmäler, Kirchen oder andere spezielle Immobilien sein. Die Bewertung solcher Immobilien erfordert daher eine spezielle Herangehensweise, die auf den individuellen Merkmalen der jeweiligen Immobilie basiert.
 
 Bei der Bewertung von Sonderimmobilien müssen die Gutachter ihr Fachwissen und ihre Erfahrung nutzen, um den für die jeweilige Immobilie am besten geeigneten Ansatz zu ermitteln. Dazu gehört zum Beispiel die Berücksichtigung von Faktoren wie der historischen Bedeutung, dem Erhaltungszustand und der Seltenheit der Immobilie.
@@ -190,7 +190,7 @@ Bei der Bewertung von Sonderimmobilien müssen die Gutachter ihr Fachwissen und 
 Auch besondere Herausforderungen, die mit diesen Arten von Immobilien verbunden sind, müssen bei der Bewertung berücksichtigt werden. So können zum Beispiel Beschränkungen durch den Denkmalschutz oder bestimmte Vorschriften bei der Renovierung und Modernisierung der Immobilie den Wert beeinflussen.
 
 Insgesamt erfordert die Bewertung von Sonderimmobilien ein hohes Maß an Fachwissen und Erfahrung. Um eine genaue Einschätzung des Werts zu erzielen, müssen alle speziellen Merkmale und Herausforderungen berücksichtigt werden.</p>
-<a href="/sonderimmobilien" class="button">Erfahren Sie mehr</a>
+<a href="/sonderimmobilien" class="button" style="padding-top:3%">Erfahren Sie mehr</a>
 </div>
 <img src="/img/sonderimmobilien.jpg" alt="Sonderimmobilien" style="flex: 1; margin-left: 20px;  width:50%;">
 </section>
@@ -200,9 +200,9 @@ Insgesamt erfordert die Bewertung von Sonderimmobilien ein hohes Maß an Fachwis
 <section class="container" id="grundstuecke-und-rechte" style="display: flex; flex-direction: row; align-items: center;">
         <img src="/img/grundstueck.jpg" alt="Grundstücke und Rechte" style="flex: 1; margin-right: 20px; width:50%;">
         <div style="flex: 2;">
-    <h3>Grundstücke und Rechte</h3>
+    <h3 style="padding-bottom:3%">Grundstücke und Rechte</h3>
     <p>Immobilien sind ein wichtiger Bestandteil der Wirtschaft und spielen eine entscheidende Rolle in unserem täglichen Leben. Ob als Wohnraum oder als Gewerbeimmobilien – sie dienen als Orte des Zusammenlebens und der Geschäftstätigkeit. Doch Immobilien sind nicht nur Gebäude, sondern auch Grundstücke und die damit verbundenen Rechte und Verpflichtungen. In diesem Kontext gibt es verschiedene Begriffe und Konzepte, die für potenzielle Käufer, Mieter oder Investoren von Bedeutung sind.</p>
-    <a href="/grundstuecke-und-rechte" class="button">Erfahren Sie mehr</a>
+    <a href="/grundstuecke-und-rechte" class="button" style="padding-top:3%">Erfahren Sie mehr</a>
 </div>
 </section>
 </div>
@@ -211,9 +211,9 @@ Insgesamt erfordert die Bewertung von Sonderimmobilien ein hohes Maß an Fachwis
 <section class="container" id="landwirtschaftliche-immobilien" style="display: flex; flex-direction: row; align-items: center;">
         
         <div style="flex: 1;">
-    <h3>Landwirtschaftliche Immobilien</h3>
+    <h3 style="padding-bottom:3%">Landwirtschaftliche Immobilien</h3>
     <p>Landwirtschaftliche Immobilien, wie Bauernhöfe oder landwirtschaftliche Flächen, spielen eine wichtige Rolle in der Landwirtschaft und in der Produktion von Nahrungsmitteln. Sie bestehen aus einer Kombination von Wohn- und Nutzflächen wie Viehhaltung, Lagerung und Acker-, Wiesen- und Weideflächen. Für die Bewertung von landwirtschaftlichen Betrieben werden spezielle Ansprüche gestellt, da sowohl die Qualität des Bodens als auch die Größe und Lage der Betriebs- und Wohngebäude einen großen Einfluss auf den Wert der Immobilie haben. In diesem Kontext sind auch die verschiedenen Kategorien landwirtschaftlicher Flächen von Bedeutung, die in Deutschland in unterschiedliche Arten wie Ackerland, Grünland oder Obstbaumanlagen unterteilt werden. Im Folgenden werden wir uns genauer mit diesen Themen auseinandersetzen und ihre Bedeutung für den Immobilienmarkt beleuchten.</p>
-    <a href="/landwirtschaftliche-immobilien" class="button">Erfahren Sie mehr</a>
+    <a href="/landwirtschaftliche-immobilien" class="button" style="padding-top:3%">Erfahren Sie mehr</a>
 </div>
 <img src="/img/landwirtschaft.jpg" alt="Landwirtschaftliche Immobilien" style="flex: 1; margin-left: 20px;  width:50%;">
 </section>
