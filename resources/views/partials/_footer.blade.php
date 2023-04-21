@@ -48,9 +48,9 @@ object-position: center;">
                 $i=0;
                 @endphp        
    
-    @foreach($data as $cities)
+    @foreach($ortDE as $ort)
     @if ($i++ < 16)
-    <a class="link-dark" href="/immobilienbewertung/{{$cities->ort_umlaut}}">Immobilienbewertung {{$cities->ort}}</a>
+    <a class="link-dark" href="/immobilienbewertung/{{$ort->ort_umlaut}}">Immobilienbewertung {{$ort->ort}}</a>
     @else
     @endif
     @endforeach
