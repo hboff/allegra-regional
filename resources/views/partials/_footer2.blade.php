@@ -58,7 +58,7 @@ object-position: center;">
 @isset($ortsname)
 @isset ($nearestCities)
 @foreach ($nearestCities as $city)
-@if($ortsname == $city->ort)
+@if($ortsname == $city->ort_umlaut)
 @else
 <a  class="footer__link" href="/immobilienbewertung/{{$city->ort_umlaut}}" >Immobilienbewertung {{$city->ort}}</a>
 @endif

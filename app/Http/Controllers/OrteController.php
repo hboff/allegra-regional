@@ -60,7 +60,7 @@ class OrteController extends Controller
         $breitengrad = $cityData->breitengrad;//
 
         $nearestCities = DB::select(DB::raw("
-        SELECT DISTINCT stadt_umlaut, stadt,
+        SELECT DISTINCT ort_umlaut, ort,
         (
             3959 * acos (
                 cos ( radians(?) )
