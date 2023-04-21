@@ -140,7 +140,7 @@
             </section> 
 <!--==================== Wohnimmobilien ====================-->
 <div style="background-color: #E1E5E6; padding:3%;">
-    <section class="container" id="wohnimmobilien" style="display: flex; flex-direction: row; align-items: center;">
+    <section class="container" id="wohnimmobilien" style="display: flex; flex-direction: row; align-items: top;">
         
         <div style="flex: 1;">
             <h3 style="padding-bottom:3%">Wohnimmobilien</h3>
@@ -162,7 +162,7 @@ Insgesamt ist bei der Bewertung von Wohnimmobilien immer eine individuelle Heran
 
 <!--==================== Gewerbeimmobilien ====================-->
 <div style="padding:3%;">
-    <section class="container" id="gewerbeimmobilien" style="display: flex; flex-direction: row; align-items: center;">
+    <section class="container" id="gewerbeimmobilien" style="display: flex; flex-direction: row; align-items: top;">
         <img src="/img/gewerbeimmobilien.jpg" alt="Gewerbeimmobilien" style="flex: 1; margin-right: 20px; width:50%;">
         <div style="flex: 2;">
             <h3 style="padding-bottom:3%">Gewerbeimmobilien</h3>
@@ -181,7 +181,7 @@ Insgesamt ist die Bewertung von Gewerbeimmobilien ein wichtiger Schritt, um den 
 
 <!--==================== Sonderimmobilien ====================-->
 <div style="background-color: #E1E5E6; padding:3%;">
-<section class="container" id="sonderimmobilien" style="display: flex; flex-direction: row; align-items: center;">
+<section class="container" id="sonderimmobilien" style="display: flex; flex-direction: row; align-items: top;">
         
         <div style="flex: 1;">
     <h3 style="padding-bottom:3%">Sonderimmobilien</h3>
@@ -200,7 +200,7 @@ Insgesamt erfordert die Bewertung von Sonderimmobilien ein hohes Maß an Fachwis
 </div>
 <!--==================== Grundtsücke und Rechte ====================-->
 <div style=" padding:3%;">
-<section class="container" id="grundstuecke-und-rechte" style="display: flex; flex-direction: row; align-items: center;">
+<section class="container" id="grundstuecke-und-rechte" style="display: flex; flex-direction: row; align-items: top;">
         <img src="/img/grundstueck.jpg" alt="Grundstücke und Rechte" style="flex: 1; margin-right: 20px; width:50%;">
         <div style="flex: 2;">
     <h3 style="padding-bottom:3%">Grundstücke und Rechte</h3>
