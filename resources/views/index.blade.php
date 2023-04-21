@@ -212,7 +212,7 @@ Insgesamt erfordert die Bewertung von Sonderimmobilien ein hohes Maß an Fachwis
 </div>
 <!--==================== Landwirtschaftliche Immobilien ====================-->
 <div style="background-color: #E1E5E6; padding:3%;">
-<section class="container" id="landwirtschaftliche-immobilien" style="display: flex; flex-direction: row; align-items: center;">
+<section class="container" id="landwirtschaftliche-immobilien" style="display: flex; flex-direction: row; align-items: top;">
         
         <div style="flex: 1;">
     <h3 style="padding-bottom:3%">Landwirtschaftliche Immobilien</h3>
