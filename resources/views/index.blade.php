@@ -139,12 +139,9 @@
 
             </section> 
 <!--==================== Wohnimmobilien ====================-->
-<div style="background-color: #E1E5E6; padding:3%;">
-    <section class="container" id="wohnimmobilien" style="display: flex; flex-direction: row; align-items: top;">
-        
-        <div style="flex: 1;">
-            <h3 style="padding-bottom:3%">Wohnimmobilien</h3>
-            <p>Bei der Bewertung von Wohnimmobilien spielen auch die verschiedenen Typen von Immobilien eine wichtige Rolle. Jeder Typ von Wohnimmobilie hat unterschiedliche Merkmale und Eigenschaften, die bei der Bewertung berücksichtigt werden müssen.
+<div style="background-color: #E1E5E6; padding:3%; display: flex; flex-direction: column;">
+<h3 style="padding-bottom:3%">Wohnimmobilien</h3>
+<p>Bei der Bewertung von Wohnimmobilien spielen auch die verschiedenen Typen von Immobilien eine wichtige Rolle. Jeder Typ von Wohnimmobilie hat unterschiedliche Merkmale und Eigenschaften, die bei der Bewertung berücksichtigt werden müssen.
 
 So wird beispielsweise bei der Bewertung von Einfamilienhäusern oft das Sachwertverfahren angewendet, da hierbei die Kosten für die Herstellung oder Wiederherstellung der Immobilie berücksichtigt werden. Bei Eigentumswohnungen hingegen wird oft das Ertragswertverfahren angewendet, da hierbei die erwarteten Erträge aus Vermietung oder Verpachtung eine wichtige Rolle spielen.
 
@@ -155,9 +152,9 @@ Bei der Bewertung von Pflegeappartments können zudem weitere Faktoren wie die A
 Insgesamt ist bei der Bewertung von Wohnimmobilien immer eine individuelle Herangehensweise notwendig, die die Besonderheiten und Eigenschaften der jeweiligen Immobilie berücksichtigt.</p>
 <br>
 <a href="/wohnimmobilien" class="button" style="padding-top:3%">Erfahren Sie mehr</a>
-        </div>
-        <img src="/img/wohnimmobilien.jpg" alt="Wohnimmobilien" style="flex: 1; margin-left: 20px;  width:50%;">
-    </section>
+
+<img src="/img/wohnimmobilien.jpg" alt="Wohnimmobilien" style="margin-top: 20px; max-width:100%; height:auto;">
+
 </div>
 
 <!--==================== Gewerbeimmobilien ====================-->
