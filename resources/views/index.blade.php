@@ -202,9 +202,10 @@ Insgesamt erfordert die Bewertung von Sonderimmobilien ein hohes Maß an Fachwis
         <div style="flex: 2;">
     <h3 style="padding-bottom:3%">Grundstücke und Rechte</h3>
     <p>Immobilien sind ein wichtiger Bestandteil der Wirtschaft und spielen eine entscheidende Rolle in unserem täglichen Leben. Ob als Wohnraum oder als Gewerbeimmobilien – sie dienen als Orte des Zusammenlebens und der Geschäftstätigkeit. Doch Immobilien sind nicht nur Gebäude, sondern auch Grundstücke und die damit verbundenen Rechte und Verpflichtungen. In diesem Kontext gibt es verschiedene Begriffe und Konzepte, die für potenzielle Käufer, Mieter oder Investoren von Bedeutung sind.</p>
-    <div>
-    <a href="/grundstuecke-und-rechte" class="button" style="padding-top:3%">Erfahren Sie mehr</a>
+    
 </div>
+<div>
+    <a href="/grundstuecke-und-rechte" class="button" style="padding-top:3%">Erfahren Sie mehr</a>
 </div>
 </section>
 </div>
