@@ -128,8 +128,7 @@ foreach ($domains as $domain => $domainData) {
             View::share('data', $data);
             return view('index', ['expert' => $expert,'domainort' => $domainData['domainort']]);
         });
-        Route::get('/immobilienbewertung/{ort}', [OrteController::class, 'show'], function () use ($domainData) {})
-                ->middleware('cache.headers:private;max_age=3600');
+        Route::get('/immobilienbewertung/{ort}', [OrteController::class, 'show'], function () use ($domainData) {});
         Route::get('/immobilienbewertungen/{region}', function($region){
             return view ('immobilienbewertungen', ['ortsname' => $region]);
     });
