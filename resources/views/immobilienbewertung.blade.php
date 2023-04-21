@@ -2,8 +2,8 @@
 
 @section('head')
 
-<title>Immobilienbewertung {{$ortsname}}</title>
-<meta name="Description" content="Sachverständiger Immobilienbewertung {{$ortsname}} ▶ Kostenlose Beratung ✔ TÜV zertifizierte Gutachter ✔ Festpreise  ✔ Kurzfristige Termine ✔ Verkehrswertgutachten ✔">
+<title>Immobilienbewertung</title>
+<meta name="Description" content="Sachverständiger Immobilienbewertung  ▶ Kostenlose Beratung ✔ TÜV zertifizierte Gutachter ✔ Festpreise  ✔ Kurzfristige Termine ✔ Verkehrswertgutachten ✔">
 
 @endsection
 
