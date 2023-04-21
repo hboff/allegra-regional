@@ -16,7 +16,7 @@
 
                 <div class="home__container container grid">
                     <div class="home__data">
-                        <h1 class="home__data-title">Immobilienbewertung<br><b>in {{$ortsname}}</b></h1>
+                        <h1 class="home__data-title">Immobilienbewertung<br><b>in </b></h1>
                        
 
                     </div>
