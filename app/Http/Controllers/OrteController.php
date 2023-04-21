@@ -64,10 +64,10 @@ class OrteController extends Controller
         (
             3959 * acos (
                 cos ( radians(?) )
-                * cos( radians( breite ) )
-                * cos( radians( laenge ) - radians(?) )
+                * cos( radians( breitengrad ) )
+                * cos( radians( laengengrad ) - radians(?) )
                 + sin ( radians(?) )
-                * sin( radians( breite ) )
+                * sin( radians( breitengrad ) )
             )
         ) AS distance
         FROM orteDE
