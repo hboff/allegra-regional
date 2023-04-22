@@ -1,16 +1,22 @@
 @extends('layout')
 @section('head')
-<title>Immobilienbewertung {{$ortsname}}</title>
-<meta name="Description" content="Immobilienbewertungen in {{$ortsname}} ">
+@foreach($regions as $region)
+@if($region->Region_Umlaut == $ortsname)
+<title>Immobilienbewertung {{$region->Region}}</title>
+<meta name="Description" content="Immobilienbewertungen in {{$region->Region}} ">
+@endif
+@endforeach
 @endsection
 
 @section('content')
+@foreach($regions as $region)
+@if($region->Region_Umlaut == $ortsname)
 <section class="home" id="home">
                 <img src="/img/allegra.jpg" alt="" class="home__img">
 
                 <div class="home__container container grid">
                     <div class="home__data">
-                        <h1 class="home__data-title">{{$ortsname}}</b></h1>
+                        <h1 class="home__data-title">{{$region->Region}}</b></h1>
                        
 
                     </div>
@@ -30,6 +36,8 @@
                 </div>
             </section>
             <section class="container">
+            @endif
+@endforeach
 @php
 $i=0;
     @endphp
@@ -40,4 +48,5 @@ $i=0;
     @endif
     @endforeach
 </section>
+
 @endsection
