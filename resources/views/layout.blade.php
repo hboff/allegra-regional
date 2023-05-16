@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown">Unsere Dienstleitungen&nbsp;</a>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Unsere Dienstleitungen&nbsp;</a>
                         <div class="dropdown-menu"><a class="dropdown-item" href="/wohnimmobilien">Wohnimmobilien</a><a class="dropdown-item" href="/gewerbeimmobilien">Gewerbeimmobilien</a><a class="dropdown-item" href="/sonderimmobilien">Sonderimmobilien</a><a class="dropdown-item" href="/grundstuecke-und-rechte">Grundstücke &amp; Rechte</a><a class="dropdown-item" href="/landwirtschaftliche-immobilien">Landwirtschaftliche Immobilien</a></div>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="/ueber-uns">Über Uns</a></li>
