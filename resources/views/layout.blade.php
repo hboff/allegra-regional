@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="/styles.css">
         <link rel="stylesheet" href="/sidebar.css">
         <link rel="stylesheet" href="/bootstrap.min.css">
+        <link rel="stylesheet" href="/aos.min.css">
         <link rel="stylesheet" href="/Navbar-Right-Links-icons.css">
 @yield('head')
     </head>
