@@ -11,11 +11,12 @@
         <link rel="stylesheet" href="/swiper-bundle.min.css">
         <link rel="stylesheet" href="/styles.css">
         <link rel="stylesheet" href="/sidebar.css">
+        <link rel="stylesheet" href="/bootstrap.min.css">
         <link rel="stylesheet" href="/Navbar-Right-Links-icons.css">
 @yield('head')
     </head>
     <body> 
-	 
+	        <header class="header" id="header">
             <nav class="navbar navbar-light navbar-expand-md fixed-top py-3" style="--bs-body-bg: var(--bs-navbar-color);backdrop-filter: blur(100px);-webkit-backdrop-filter: blur(100px);">
         <div class="container-fluid"><a class="navbar-brand d-flex align-items-center" href="#"><span>Allegra</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-2">
@@ -29,7 +30,7 @@
             </div>
         </div>
     </nav>
-   
+        </header>
 
 @yield('content')
 
