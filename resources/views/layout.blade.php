@@ -50,6 +50,6 @@
         <script src="{{asset('js/scrollreveal.min.js')}}"></script>
         <script src="{{asset('js/swiper-bundle.min.js')}}"></script>
         <script src="{{asset('js/main.js')}}"></script>
-
+        <script src="/js/bootstrap.min.js"></script>
     </body>
 </html>
