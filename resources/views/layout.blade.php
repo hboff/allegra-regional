@@ -11,34 +11,24 @@
         <link rel="stylesheet" href="/swiper-bundle.min.css">
         <link rel="stylesheet" href="/styles.css">
         <link rel="stylesheet" href="/sidebar.css">
+        <link rel="stylesheet" href="/css/Navbar-Right-Links-icons.css">
 @yield('head')
     </head>
     <body> 
 	        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="https://allegra-immobilienbewertung.de" class="nav__logo">Allegra</a>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="https://allegra-immobilienbewertung.de" class="nav__link active-link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#discover" class="nav__link">Unsere Dienstleistungen</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="ueber-uns" class="nav__link">Über Uns</a>
-                        </li>
-                    </ul>
-
-                    
-                    <i class="ri-close-line nav__close" id="nav-close"></i>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-function-line"></i>
-                </div>
-            </nav>
+            <nav class="navbar navbar-light navbar-expand-md fixed-top py-3" style="--bs-body-bg: var(--bs-navbar-color);backdrop-filter: blur(100px);-webkit-backdrop-filter: blur(100px);">
+        <div class="container-fluid"><a class="navbar-brand d-flex align-items-center" href="#"><span>Allegra</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-2">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Unsere Dienstleitungen&nbsp;</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="/wohnimmobilien">Wohnimmobilien</a><a class="dropdown-item" href="/gewerbeimmobilien">Gewerbeimmobilien</a><a class="dropdown-item" href="/sonderimmobilien">Sonderimmobilien</a><a class="dropdown-item" href="/grundstuecke-und-rechte">Grundstücke &amp; Rechte</a><a class="dropdown-item" href="/landwirtschaftliche-immobilien">Landwirtschaftliche Immobilien</a></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/ueber-uns">Über Uns</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
         </header>
 
 @yield('content')
