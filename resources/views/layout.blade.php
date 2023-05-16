@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="/swiper-bundle.min.css">
         <link rel="stylesheet" href="/styles.css">
         <link rel="stylesheet" href="/sidebar.css">
-        <link rel="stylesheet" href="/css/Navbar-Right-Links-icons.css">
+        <link rel="stylesheet" href="/Navbar-Right-Links-icons.css">
 @yield('head')
     </head>
     <body> 
