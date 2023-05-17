@@ -48,7 +48,7 @@ object-position: center;">
    
     @foreach($data as $cities)
     @if ($i++ < 16)
-    <a class="link-dark" href="/{{$cities->ort_umlaut}}/bausachverstaendiger">Baugutachter {{$cities->ort}}</a>
+    <a class="link-dark" href="/immobilienbewertung/{{$cities->ort_umlaut}}">Immobilienbewertung {{$cities->ort}}</a>
     @else
     @endif
     @endforeach
