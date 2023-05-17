@@ -43,21 +43,24 @@ object-position: center;">
     
                     
                     <div class="footer__data">
-                        
-                    @php
-                $i=0;
-                @endphp        
-   <ul class="list-unstyled">
-    @foreach($ortDE as $ort)
-    @if ($i++ < 16)
-    <li><a class="link-dark" href="/immobilienbewertung/{{$ort->ort_umlaut}}">Immobilienbewertung {{$ort->ort}}</a></li>
-    @else
-    @endif
-    @endforeach
 
                         
                     </div>
-
+                
+                    <div class="footer__data">
+                        <ul class="list-unstyled">
+@isset($domainort)
+@isset ($nearestCities)
+@foreach ($nearestCities as $city)
+@if($domainort == $city->ort_umlaut)
+@else
+<li><a  class="footer__link" href="/immobilienbewertung/{{$city->ort_umlaut}}" >Immobilienbewertung {{$city->ort}}</a></li>
+@endif
+@endforeach
+@endisset  
+@endisset 
+</ul>
+                    </div>
                 </div>
 
                 <div class="footer__rights">

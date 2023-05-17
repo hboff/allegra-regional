@@ -129,16 +129,17 @@ foreach ($domains as $domain => $domainData) {
             return view('index', ['expert' => $expert,'domainort' => $domainData['domainort']]);
         });
         Route::get('/immobilienbewertung/{ort}', [OrteController::class, 'show'], function () use ($domainData) {});
-        Route::get('/immobilienbewertungen/{region}', function($region){
-            return view ('immobilienbewertungen', ['ortsname' => $region]);
-    });
+        
         Route::get('contact-us', [ContactController::class, 'index']);
         Route::post('contact-us', [ContactController::class, 'store'])->name('contact.us.store');
 
     foreach ($routes as $route) {
     Route::get($route, function () use ($route, $domainData) {
-    
-    return view($route, ['domainort' => $domainData['domainort']]);
+        $data = DB::table('orteDE')
+        ->whereBetween('laengengrad', $domainData['laengengrad'])
+        ->whereBetween('breitengrad', $domainData['breitengrad'])
+        ->get();
+        return view($route, ['data' => $data, 'domainort' => $domainData['domainort']]);
     });
     }
     });

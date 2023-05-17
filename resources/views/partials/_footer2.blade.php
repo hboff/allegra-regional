@@ -44,27 +44,21 @@ object-position: center;">
                     
                     <div class="footer__data">
                         
-    @foreach($regions as $region)
-    @if ($region->Country == 'Germany')
-    <a class="footer__link" href="/immobilienbewertungen/{{$region->Region_Umlaut}}">Immobilienbewertung {{$region->Region}}</a><br>
-    @endif
-
-    @endforeach
-
-                        
                     </div>
                 
                     <div class="footer__data">
+                        <ul class="list-unstyled">
 @isset($ortsname)
 @isset ($nearestCities)
 @foreach ($nearestCities as $city)
 @if($ortsname == $city->ort_umlaut)
 @else
-<a  class="footer__link" href="/immobilienbewertung/{{$city->ort_umlaut}}" >Immobilienbewertung {{$city->ort}}</a>
+<li><a  class="footer__link" href="/immobilienbewertung/{{$city->ort_umlaut}}" >Immobilienbewertung {{$city->ort}}</a></li>
 @endif
 @endforeach
 @endisset  
 @endisset 
+</ul>
                     </div>
                 </div>
 

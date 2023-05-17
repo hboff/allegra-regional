@@ -40,7 +40,7 @@
 @if(str_contains(url()->current(), "/immobilienbewertung/"))
 @include('partials._footer2')
 @else
-@include('partials._footer')
+@include('partials._footer3')
 @endif
 
         <a href="#" class="scrollup" id="scroll-up">
